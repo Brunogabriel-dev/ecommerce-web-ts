@@ -20,7 +20,8 @@ const Hero = () => {
 
         </div>
        
-       <div className="bg-accentDark houver:bg-accent text-white rounded-full w-fit items-center gap-4 px-4 py-2 text-[14px] sm:px-6 sm:py-3 cursor-pointer">Shop Now <BsArrowRight /> 
+       <div className="bg-accentDark hover:bg-accent text-white rounded-full w-fit items-center gap-4 px-4 py-2 text-[14px] sm:px-6 sm:py-3 cursor-pointer">
+        Shop Now <BsArrowRight /> {" "}
        </div>
        </div>
       </div>
