@@ -1,4 +1,5 @@
 import { BsSearch } from "react-icons/bs"
+import { AiOutlineUser } from "react-icons/ai";
 
 const Navbar = () => {
   return (<div className="container hidden lg:block">
@@ -8,6 +9,11 @@ const Navbar = () => {
         <input className="bg-[#f2f3f5]  border-none outline-none px-6 py-3 rounded-[30px]" type="text" placeholder="Search Product..."/>
 
         <BsSearch className="absolute top-0 right-0 mt-4 mr-5 text-gray-500" size={20} />
+      </div>
+
+      <div className="flex gap-40">
+        <div className="icon_wrapper"></div>
+
       </div>
     </div>
   </div>
