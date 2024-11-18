@@ -25,6 +25,15 @@ const Hero = () => {
        </div>
        </div>
       </div>
+
+
+      <div className="relative">
+        <img 
+        className="w-full object-cover rounded-lg" 
+        src="/hero__2.webp" 
+        alt="hero image" />
+        
+      </div>
     </div>
   </div> 
   )
