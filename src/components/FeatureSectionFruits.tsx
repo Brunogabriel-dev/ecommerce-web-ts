@@ -29,14 +29,12 @@ const FeatureSectionFruits = () => {
         </div>
       </div>
 
-
       <div className="grid sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-5 pt-8 gap-2">
         <img 
         className="w-full h-full object-cover" 
         src="/feature__1.webp" 
         alt="banner" />
-      </div>
-
+      
       {data.map((el)=> (
         <ProductCard 
         key={el.id} 
@@ -45,8 +43,8 @@ const FeatureSectionFruits = () => {
         price={el.price} 
         />))}
 
-
-    </div>
+      </div>
+     </div>
   )
 }
 

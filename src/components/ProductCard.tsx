@@ -29,4 +29,4 @@ const ProductCard: React.FC<propsType> = ({img, name, price}) => {
   )
 }
 
-export default ProductCard
+export default ProductCard;
