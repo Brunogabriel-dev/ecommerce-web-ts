@@ -10,8 +10,12 @@ const FeatureSectionFruits = () => {
 
         <div className="space-x-4 mt-8 lg:mt-0">
          <button className="feature_btn">Fruits</button>
-          <button className="text-gray-600 hover:text-accent">Vegetables</button>
-          <button className="text-gray-600 hover:text-accent">Bread & Bakery</button>
+          <button className="text-gray-600 hover:text-accent">
+            Vegetables
+            </button>
+          <button className="text-gray-600 hover:text-accent">
+            Bread & Bakery
+            </button>
         </div>
 
       </div>
