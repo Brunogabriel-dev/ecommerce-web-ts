@@ -32,7 +32,15 @@ const Hero = () => {
         className="w-full object-cover rounded-lg" 
         src="/hero__2.webp" 
         alt="hero image" />
-        
+
+        <div className="absolute max-w-[470px] sm:ml-8 top-[50%] -translate-y-[50%] sm:space-y-2">
+          <h2 className="text-2xl sm:text-3x1 font-bold">Best Yummy Chips</h2>
+          <p className="text-gray-500 text-xl pt-4">Starting Al</p>
+          <div className="font-medium text-red-600 text-2x1 sm:text-4xl pb-8">
+            $10
+          </div>
+          <div></div>
+        </div>
       </div>
     </div>
   </div> 
