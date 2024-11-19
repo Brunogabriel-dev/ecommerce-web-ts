@@ -39,7 +39,9 @@ const Hero = () => {
           <div className="font-medium text-red-600 text-2x1 sm:text-4xl pb-8">
             $10
           </div>
-          <div></div>
+          <div className="bg-accent hover:bg-accentDark text-white rounded-full w-fit flex items-center gap-4 px-4 py-2 text-[14px] cursor-pointer">
+            Shop Now <BsArrowRight/>
+          </div>
         </div>
       </div>
     </div>
