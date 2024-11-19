@@ -26,7 +26,6 @@ const Navbar = () => {
           <AiOutlineShoppingCart />
           <CartCountBadge size="w-[25px] h-[25px]" />
         </div>
-
       </div>
     </div>
   </div>
