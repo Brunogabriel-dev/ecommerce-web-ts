@@ -1,8 +1,11 @@
-import ProductCard from "./ProductCard"
+import ProductCard from "./ProductCard";
 
-const = [
-  
-]
+const data = [
+  { id: 0, img: "product__1.webp", name: "Dried Mango", price: "$500" },
+  { id: 1, img: "product__2.webp", name: "Crunchy Crisps", price: "$300" },
+  { id: 2, img: "product__3.webp", name: "Jewel Cranberries", price: "$200" },
+  { id: 3, img: "product__4.webp", name: "Almond organic", price: "$100" },
+];
 
 const FeatureSectionFruits = () => {
   return (
