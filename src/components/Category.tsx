@@ -23,7 +23,7 @@ const data = [
     id: 3,
     name:"Bread bakery",
     count:"12 Products",
-    img: "/category__4,webp",
+    img: "/category__4.webp",
   },
   {
     id: 4,
@@ -55,7 +55,14 @@ const Category = () => {
   return (
     <div className="container pt-16">
       <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-        {data.map(el => <CategoryCard key={el.id} img={el.img} name={el.name} count={el.count} />)}
+        {data.map(el => (
+        <CategoryCard 
+        key={el.id} 
+        img={el.img} 
+        name={el.name} 
+        count={el.count} 
+        />))}
+
       </div>
     </div>
   )
