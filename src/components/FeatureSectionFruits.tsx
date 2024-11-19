@@ -1,3 +1,9 @@
+import ProductCard from "./ProductCard"
+
+const = [
+  
+]
+
 const FeatureSectionFruits = () => {
   return (
     <div className="container pt-16">
@@ -26,6 +32,16 @@ const FeatureSectionFruits = () => {
         src="/feature__1.webp" 
         alt="banner" />
       </div>
+
+      {data.map((el)=> (
+        <ProductCard 
+        key={el.id} 
+        img={el.img} 
+        name={el.name} 
+        price={el.price} 
+        />))}
+
+
     </div>
   )
 }
