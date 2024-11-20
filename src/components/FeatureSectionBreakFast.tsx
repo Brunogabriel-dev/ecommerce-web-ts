@@ -12,9 +12,9 @@ const FeatureSectionBreakFast = () => {
     <div className="container pt-16">
       <div className="lg:flex justify-between items-center">
         <div>
-          <h3 className="font-medium text-2xl">Fruits & Vegetables</h3>
+          <h3 className="font-medium text-2xl">Breakfast & Dairy</h3>
           <p className="text-gray-600 mt-2">
-            Buy farm fresh fruits and vegetables online at the best prices
+            Buy best quality breakfast online from big-basket stop near you.
             </p>
         </div>
 
