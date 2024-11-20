@@ -1,3 +1,4 @@
+import BannerSection from "./components/BannerSection"
 import Category from "./components/Category"
 import FeatureSectionBreakFast from "./components/FeatureSectionBreakFast"
 import FeatureSectionFruits from "./components/FeatureSectionFruits"
@@ -12,6 +13,7 @@ const App = () => {
      <Category />
      <FeatureSectionFruits />
      <FeatureSectionBreakFast />
+     <BannerSection/>
     </main>
   )
 }
