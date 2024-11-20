@@ -28,7 +28,11 @@ const BlogSection = () => {
       </p>
       <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 pt-8">
         {data.map((el) => (
-        <BlogCard />
+        <BlogCard key={el.date}
+        img={el.img}
+        title={el.title}
+        date={el.date}
+        comment={el.comment} />
         ))}
       </div>
     </div>
