@@ -14,10 +14,12 @@ const Newsletter = () => {
       </div>
     </div>
     <div className="w-full max-w-[500px] relative">
-      
+      <input className="py-4 px-6 w-full rounded-full" type="text" placeholder="Your Email Address..." />
+
+      <button className="bg-accent absolute top-[50%] right-2 translate-y-[50%] py-2 px-4 rounded-full hover:bg-accent">Subscribe!</button>
+
+
     </div>
-
-
    </div>
   </div>
 
