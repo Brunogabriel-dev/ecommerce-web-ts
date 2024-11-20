@@ -1,9 +1,11 @@
+import BlogCard from "./BlogCard";
+
 const data = [
   {
     img: "/post__1.webp",
     title: "Healthy food Healthy Life",
     date: "Nov 27, 2024",
-    commrnt: 8,
+    comment: 8,
   },
   {
     img: "/post__2.webp",
@@ -15,7 +17,7 @@ const data = [
     img: "/post__3.webp",
     title: "Healthy Food Healthy Life",
     date: "Nov 30, 2024",
-    comment: "6",
+    comment: 6,
   }
 ];
 
