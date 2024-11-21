@@ -1,6 +1,7 @@
 import BannerSection from "./components/BannerSection"
 import BlogSection from "./components/BlogSection"
 import Category from "./components/Category"
+import FeatureSection from "./components/FeatureSection"
 import FeatureSectionBreakFast from "./components/FeatureSectionBreakFast"
 import FeatureSectionFruits from "./components/FeatureSectionFruits"
 import Hero from "./components/Hero"
@@ -18,6 +19,7 @@ const App = () => {
      <BannerSection/>
      <BlogSection />
      <Newsletter/>
+     <FeatureSection/>
     </main>
   )
 }
