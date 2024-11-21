@@ -62,7 +62,6 @@ const Category = () => {
         name={el.name} 
         count={el.count} 
         />))}
-
       </div>
     </div>
   )

@@ -38,7 +38,6 @@ const FeatureSectionBreakFast = () => {
         name={el.name} 
         price={el.price} 
         />))}
-
       </div>
      </div>
   )
